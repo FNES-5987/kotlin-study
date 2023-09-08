@@ -2,7 +2,9 @@ package ch06
 
 fun main() {
     // mapOf(키 to 값 ...)
+    // 초기값 설정
     val person = mapOf("name" to "Alice", "age" to 30)
+    // 초기값 미설정
     val person2 = mutableMapOf<String, Any>()
     person2["name"] = "Alice"
     person2["age"] = 30
